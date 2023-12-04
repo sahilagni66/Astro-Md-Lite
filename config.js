@@ -13,7 +13,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined ? "./lib/assets/data
 
 module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
-  AUDIO_DATA: process.env.AUDIO_DATA || 'ʟᴏᴋɪ-xᴇʀ;ᴊᴀʀᴠɪꜱ;https://i.imgur.com/ep3UbBP.jpg',
+  AUDIO_DATA: process.env.AUDIO_DATA || 'Astro',
   WARN_COUNT: process.env.WARN_COUNT || '3',
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || 'kick',
@@ -22,7 +22,7 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID || '',
   LANG: process.env.LANG || 'EN',
   AUTO_STATUS_VIEWS: process.env.AUTO_STATUS_VIEWS || 'false',
-  HANDLERS: process.env.HANDLER  || 'null',
+  HANDLERS: process.env.HANDLER  || '.',
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: 'main',
   STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'ᴊᴀʀᴠɪꜱ;ᴡᴀʙᴏᴛ',
@@ -30,10 +30,10 @@ module.exports = {
   GOODBYE_MSG: process.env.GOODBYE_MSG || 'Hi @user It was Nice Seeing you',
   AUTHOR: process.env.AUTHOR || 'ʟᴏᴋɪ-xᴇʀ',
   MEDIA_DATA: process.env.MEDIA_DATA|| 'ʟɪꜱᴛ ᴍᴇɴᴜ;ᴊᴀʀᴠɪꜱ-ᴍᴅ;https://i.imgur.com/ltPPMTh.jpeg',
-  SUDO: process.env.SUDO || '917025673121,',
+  SUDO: process.env.SUDO || '2349027862116',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
-  BOT_INFO: process.env.BOT_INFO || 'ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://i.imgur.com/VIpl3q5.mp4',
-  WORK_TYPE: process.env.WORK_TYPE || '',
+  BOT_INFO: process.env.BOT_INFO || 'Astro',
+  WORK_TYPE: process.env.WORK_TYPE || 'private',
   DATABASE: DATABASE_URL === "./lib/assets/database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 };
