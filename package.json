@@ -1,5 +1,5 @@
 {
-    "name": "Astro",
+    "name": "Jarvis",
     "version": "0.4.1",
     "description": "A simple WhatsApp Bot Based On WhiskeySockets/Baileys",
     "main": "index.js",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Astropeda/Astro-Md-Lite.git"
+        "url": "git+https://github.com/Loki-Xer/Jarvis-md.git"
     },
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
@@ -46,7 +46,6 @@
         "qrcode-terminal": "^0.12.0",
         "sequelize": "^6.23.0",
         "simple-git": "^3.20.0",
-        "sqlite3": "^5.1.6",
         "string-crypto": "2.0.2",
         "util": "^0.12.5",
         "imgbb-uploader": "^1.4.0",
