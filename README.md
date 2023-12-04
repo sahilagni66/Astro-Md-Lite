@@ -1,8 +1,8 @@
-#### JARVIS MD WHATSAPP BOT
-jarvis md is Multi Device whatsapp bot based on X-Asena
+#### ASTRO MD LITE WHATSAPP BOT
+Astro MD lite is Multi Device whatsapp bot based on Astropeda
 ***
 
-### SETUP JARVIS
+### SETUP ASTRO LITE
 
 1. Scan the QR code
     <br>
@@ -30,10 +30,6 @@ jarvis md is Multi Device whatsapp bot based on X-Asena
 <a href='https://railway.app/template/gDYcSS?referralCode=wgSM5y' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway&logoColor=white'/></a>
 
 
-#### THANKS TO
-- [INRL ❤️](https://github.com/inrl-official) <br>
-- [X-Electra](https://github.com/inrl-official) for [X-Asena](https://github.com/X-Electra/X-Asena)
+#### ASTRO SUPPORT  
 
-#### JARVIS SUPPORT  
-
-<a href="https://whatsapp.com/channel/0029Va9dOax4o7qDb6pVvp34"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-white?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+<a href="https://chat.whatsapp.com/CpU3EMHQ9t27DB0XT4jaeD"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-white?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
